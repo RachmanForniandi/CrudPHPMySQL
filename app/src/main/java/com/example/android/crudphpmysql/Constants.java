@@ -6,7 +6,7 @@ package com.example.android.crudphpmysql;
 
 public class Constants {
 
-    public static final String ROOT_URL = "http://192.168.1.9/crud_android/v1/";
+    public static final String ROOT_URL = "http://192.168.1.13/crud_android/v1/";
     public static final String URL_REGISTER = ROOT_URL+"registerUser.php";
 
 }
