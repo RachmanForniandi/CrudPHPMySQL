@@ -1,6 +1,7 @@
 package com.example.android.crudphpmysql;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -60,11 +61,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                                                 obj.getString("username"),
                                                 obj.getString("email")
                                         );
-                                Toast.makeText(
-                                        getApplicationContext(),
-                                        "User login successful",
-                                        Toast.LENGTH_LONG
-                                ).show();
+                                startActivity(new Intent(getApplicationContext(),ProfileActivity.class));
+                                finish();
                             }else{
                                 Toast.makeText(
                                         getApplicationContext(),
