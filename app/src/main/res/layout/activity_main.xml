@@ -40,7 +40,8 @@
             android:id="@+id/et_Password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Insert your Password"/>
+            android:hint="Insert your Password"
+            android:inputType="textPassword"/>
 
         <TextView
             android:id="@+id/tV_Email"
